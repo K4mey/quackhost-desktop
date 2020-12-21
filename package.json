@@ -1,0 +1,24 @@
+{
+  "name": "electron-webview",
+  "productName": "Electron webview",
+  "version": "1.0.0",
+  "description": "A simple Electron webview application",
+  "main": "main.js",
+  "bin": "bin.js",
+  "scripts": {
+    "start": "electron-packager win32 ."
+  },
+  "repository": "https://github.com/cba85/electron-webview",
+  "keywords": [
+    "Electron",
+    "webview"
+  ],
+  "author": "Kamey",
+  "license": "GPLv3",
+  "devDependencies": {
+    "electron": "^10.0.0",
+    "electron-installer-dmg": "^3.0.0",
+    "electron-packager": "^15.2.0"
+  },
+  "dependencies": {}
+}
